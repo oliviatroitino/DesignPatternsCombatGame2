@@ -34,7 +34,7 @@ public class Player extends Entity {
         super.setName(nombre);
 
         while(!validInput(pATK, pHP, pDEF)){
-            narrator.addText("Hello, " + nombre + ". You have " + maxValue*3 + " points to assign to your attack, life and defense, each with a maximum of 50. Your defense will be a percentage out of 100, so that the damage done to you is a percentage of your enemy's attack.");
+            narrator.addText("Hello, " + nombre + ". You have " + maxValue*3 + " points to distribute to your attack, life and defense. Your defense will be a percentage out of 100, so that the damage done to you is a percentage of your enemy's attack.");
             narrator.addText("Choose carefully, or you will be asked again.");
             narrator.startNarration();
             narrator.startNarration();
